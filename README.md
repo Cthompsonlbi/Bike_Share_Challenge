@@ -11,9 +11,9 @@ The purpose of this project is to create a data analysis through Tableau with di
 
 [link to dashboard](https://public.tableau.com/app/profile/chad.thompson/viz/BikeShareChallenge_16434053059240/RideShare?publish=yes)
 
-The following screenshots will highlight the code aspect of the project to highlight certain features from the webpage shown above:
+One of the drawbacks that Des Moines has starting a bike share business when compared to New York City is it's population.
 
-* Most of the webpage functionality, from the user's standpoint can be controlled using this map layer control feature.
+* By referring to the images below, you can see how the two cities differ but, you will also notice some similarities.
 
 ![MapLayerControl](Earthquake_Challenge/resources/MapLayerControl.png)
 
