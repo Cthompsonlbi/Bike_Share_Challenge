@@ -35,31 +35,27 @@ Now onto the data pulled from the datasets provided.  After plotting the data, w
 
 By looking at the data from Tableau below we can see that during the week peak times are 7 a.m. to 9 a.m. and 5 p.m. to 7 p.m. Monday through Friday and usuage is evenly spread from 10 a.m. to 6 p.m. Saturday and Sunday.  We can see on the second heat map the ride intensity based on gender and subscriber vs non-subscribers. No real surprises here based on what we have seen previously.  
 
-The heatmap below provides a bit more usuage data by breaking out the rider information for peak times by gender.  
-
 ![HeatMaps1](Resources/HeatMaps1.png)
 
-Research did not just focus solely on bringing a ride share business to Des Moines.  The research also focused briefly on identifying opportunities to run the business efficiently once it is in operation.  The plot below serves multiple purposes.  It contains a horizontal bar chart that not only shows the peak ride times but, it can also show when the bikes are not as heavily utilized, allowing for maintenance. Also, the tree plots below the bar chart shows the least busiest locations in NYC for the bike share service. This information could be used to determine whether or not having a station there is profitable. The information could also be used from a preventative maintenance perspective as well. It can identify bike that are not as heavily utilized and swap them with bikes at station that have heavier usuage.
+The heatmap below provides a bit more usuage data by breaking out the rider information for peak times by gender.  
 
 ![HeatMap2](Resources/HeatMap2.png)
 
-* Below you will find the use of a function that controls the styling of the GeoJSON data added for earthquakes in the past seven days. It controls the size, shape, and colors of the circles added for each earthquake.
+Another piece of information that could be use to know but, may not necessarily apply 100% to our Des Moines ride share business model is average duration of rental.  From the data below, the average ride duration is approximately 6 minutes.  It only varies slightly between 5 minutes and 6 minutes for females and males respectively.  Once again, because of the population density in NYC and many locations are close, ride times will probably be lower than in Des Moines where the attractions/locations are spread further apart.
 
-![stylingfunctionAllEarthQuakes](Earthquake_Challenge/resources/stylingfunctionAllEarthQuakes.png)
+![TripDuration](Resources/TripDuration.png)
 
-* Now, let's repeat this but, using a function that controls the styling of the GeoJSON data added for earthquakes in the past with a magnitude of 4.5 or greater. It controls the size, shape, and colors of the circles added for each earthquake.
+Research did not just focus solely on bringing a ride share business to Des Moines.  The research also focused briefly on identifying opportunities to run the business efficiently once it is in operation.  The plot below serves multiple purposes.  It contains a horizontal bar chart that not only shows the peak ride times but, it can also show when the bikes are not as heavily utilized, allowing for maintenance. Also, the tree plots below the bar chart shows the least busiest locations in NYC for the bike share service. This information could be used to determine whether or not having a station there is profitable. The information could also be used from a preventative maintenance perspective as well. It can identify bike that are not as heavily utilized and swap them with bikes at station that have heavier usuage.
 
-![stylingfunctionMajEarthQuakes](Earthquake_Challenge/resources/stylingfunctionMajEarthQuakes.png)
+![MaintenancePlot](Resources/MaintenancePlot.png)
 
-* This snippet below adds a popup functionality of magnitude information and location to each point that was plotted and styled from the functions above:
-
-![PopupControl](Earthquake_Challenge/resources/PopupControl.png)
 
 ## Results:
 
-The result is a visually appealing webpage with nice functionality.  It is user friendly and inviting and has the look and feel of well thought out and designed webpage.  It allows the user to interact with the webpage to modify the type of map and the information that overlays these maps.  It delivers upon all of Basil and Sadhana's request and requirements.
+The result is a visually appealing and intersting story told by using the features of Tableau.  Tableau allows you to pull data from the dataset or use data acquired through calculations and apply visualizations to give your message more impact.  This Tableau story has met the criteria set forth by Kate in preperation of her presentation with potential investors.
 
 ## Summary:
-This was an interesting project, and I learned a lot.  I see many opportunities to use what I learned from this project with my current position at my company in my current role.
 
-Something that would be an interesting add-on to this project is the addition of a GeoJSON layer for volcanoes.  Agreed, that volcanoes do not fall in the focus of this project, which has its focus on earthquakes but, it would be interesting to see the correlation between earthquakes, tectonic plates and volcanoes.  Perhaps it is something that I could circle back after bootcamp and try myself.
+Based on the data analyzed for this point, there still needs to be more research done to make an informed decision whether or not a bike share program could work in Des Moines.  New York City, because it is so compact, has many sites, features, restaurants and attractions with-in biking distance. Research would need to be done to find the best locations in Des Moines to put bike rental stations in areas that are of a "bikeable" distance.  A visualization highlighting the average distance traveled per rental would be great information to have.  Then we could map out from any bike station in Des Moines all of the attractions and locations that are available within the average distance traveled by the average New Yorker.  This will help us to decide strategically where we should place each station. Also, perhaps those in Des Moines are prepared to ride longer distances than what the New York data set shows.
+
+The fact that the weather in Des Moines is comparable to NYC is a plus.  Also, seeing that an overwhelming majority of bike share users are males and not tourists favors Des Moines. Des Moines does not have a large tourist industry and the ratio of males to females is higher than in NYC. 
