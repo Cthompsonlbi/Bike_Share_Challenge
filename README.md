@@ -9,20 +9,27 @@ The purpose of this project is to create a data analysis through Tableau with di
 
 * A brief summary of the project will be written throughout the rest of this document but, the full report can be seen by accessing the link below.
 
-[link to dashboard](https://public.tableau.com/app/profile/chad.thompson/viz/BikeShareChallenge_16434053059240/RideShare?publish=yes)
+[link to Tableau Data Story](https://public.tableau.com/app/profile/chad.thompson/viz/BikeShareChallenge_16434053059240/RideShare?publish=yes)
 
 One of the drawbacks that Des Moines has starting a bike share business when compared to New York City is it's population.
 
 * By referring to the images below, you can see how the two cities differ but, you will also notice some similarities.
 
-![MapLayerControl](Earthquake_Challenge/resources/MapLayerControl.png)
+![NewYorkDem](Resources/NewYorkDem.png) 
+![DesMoinesDemo](Resources/DesMoinesDemo.png)
 
-* The following two snippets of code provide the naming of the maps and overlays that will be displayed in the control box feature above:
+As you can see, population is the biggest thing to take into consideration.  NYC has 8.5 million people and a population density of 28,000/sq. mile. Des Moines has only 213,000 and a population density of 2400/sq. mile.  With a population size and density like NYC, you will have access to more customers and there will be more locations in a "bikeable" range.  However, the median age of the two cities are roughly the same. Des Moines has a male to female population of 1:1.  While NYC has a male to female population of .9:1. It will become evident later in this report as to why that may be beneficial to Des Moines.
 
-![overlays](Earthquake_Challenge/resources/overlays.png)
-![baselayer3maps](Earthquake_Challenge/resources/baselayer3maps.png)
+Another topic to consider would be the weather and how Des Moines and New York City Compare.
 
-* This code snippet below will place the control for the base maps and overlays in the control box.
+* The following two screenshots highlight that average temperatures and rainfall for both cities.
+
+![NYC_Weather](Resources/NYC_Weather.png)
+![DesMoinesWeather](Resources/DesMoinesWeather.png)
+
+As you can see by from the information above, the weather profiles for both cities are quite similar.  Des Moines does have slightly less rainfall than NYC, which could allow for more "bikerideable" days.
+
+Now onto the data pulled from the datasets provided.  After plotting the data, we can see the majority of the bike rentals were done by individuals who are on a subscriber plan.  This is good news for Des Moines as it shows that the usuage rates of the bike share service in NYC is impacted very little by tourism. It is locals that are using the service.  Also, the majority of the users of the service are males which, is good news for Des Moines as their male to female ratio is more evenly split than the ratio of NYC. 
 
 ![addMapandLayer](Earthquake_Challenge/resources/addMapandLayer.png)
 
