@@ -33,13 +33,15 @@ Now onto the data pulled from the datasets provided.  After plotting the data, w
 
 ![UserType](Resources/UserType.png)
 
-* Now the code below, allows us to access created maps to pull into our webpage for use in our display.  The API links below is what is displayed when the user changes map selection.
+By looking at the data from Tableau below we can see that during the week peak times are 7 a.m. to 9 a.m. and 5 p.m. to 7 p.m. Monday through Friday and usuage is evenly spread from 10 a.m. to 6 p.m. Saturday and Sunday.  We can see on the second heat map the ride intensity based on gender and subscriber vs non-subscribers. No real surprises here based on what we have seen previously.  
 
-![maplayers](Earthquake_Challenge/resources/maplayers.png)
+The heatmap below provides a bit more usuage data by breaking out the rider information for peak times by gender.  
 
-* The snippet below shows the use of d3 GeoJSON to access a JSON file and pull it into the webpage for use.  The snippet below shows code used to access the JSON file for earthquakes with a magnitude of 4.5 or greater.  There were two other d3 GeoJSON's created to access the data for tectonic plates and all earthquakes in the past seven days.
+![HeatMaps1](Resources/HeatMaps1.png)
 
-![d3JSONfileAccess](Earthquake_Challenge/resources/d3JSONfileAccess.png)
+Research did not just focus solely on bringing a ride share business to Des Moines.  The research also focused briefly on identifying opportunities to run the business efficiently once it is in operation.  The plot below serves multiple purposes.  It contains a horizontal bar chart that not only shows the peak ride times but, it can also show when the bikes are not as heavily utilized, allowing for maintenance. Also, the tree plots below the bar chart shows the least busiest locations in NYC for the bike share service. This information could be used to determine whether or not having a station there is profitable. The information could also be used from a preventative maintenance perspective as well. It can identify bike that are not as heavily utilized and swap them with bikes at station that have heavier usuage.
+
+![HeatMap2](Resources/HeatMap2.png)
 
 * Below you will find the use of a function that controls the styling of the GeoJSON data added for earthquakes in the past seven days. It controls the size, shape, and colors of the circles added for each earthquake.
 
