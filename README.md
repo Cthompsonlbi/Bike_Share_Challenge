@@ -31,7 +31,7 @@ As you can see by from the information above, the weather profiles for both citi
 
 Now onto the data pulled from the datasets provided.  After plotting the data, we can see the majority of the bike rentals were done by individuals who are on a subscriber plan.  This is good news for Des Moines as it shows that the usuage rates of the bike share service in NYC is impacted very little by tourism. It is locals that are using the service.  Also, the majority of the users of the service are males which, is good news for Des Moines as their male to female ratio is more evenly split than the ratio of NYC. 
 
-![addMapandLayer](Earthquake_Challenge/resources/addMapandLayer.png)
+![UserType](Resources/UserType.png)
 
 * Now the code below, allows us to access created maps to pull into our webpage for use in our display.  The API links below is what is displayed when the user changes map selection.
 
